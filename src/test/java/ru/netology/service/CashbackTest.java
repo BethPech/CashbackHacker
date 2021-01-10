@@ -23,7 +23,7 @@ public class CashbackTest {
     public void shouldCountHowMuchAddIfEqual() {
         Cashback service = new Cashback();
         int actual = service.remain(1000);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(expected, actual);
     }
     @Test
